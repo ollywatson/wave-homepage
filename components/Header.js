@@ -9,7 +9,7 @@ function Header() {
                     <Row>
                         <Col xs={12} lg={12} xl={{ span: 12, offset: 0 }} xxl={{ span: 12, offset: 0 }}>
                             <img className="wave-logo" src="assets/wave-logo-white.svg"></img>
-                            <Link href=""><a className="support-button">Contact support</a></Link>
+                            <Link href="" crossorigin="anonymous"><a className="support-button">Contact support</a></Link>
                         </Col>
                     </Row>
                 </Container>
