@@ -270,7 +270,7 @@ p {
   }
 
   .content-inner {
-    padding-right: 80px;
+    padding-right: 32px;
   }
 
   .wave-logo {
@@ -298,9 +298,18 @@ p {
     width: 80%;
   }
 
+  .content-inner {
+    padding-right: 24px;
+  }
+
 }
 
 @media (min-width: 1400px) {
+
+  .content-inner {
+    padding-right: 112px;
+  }
+
   .hero-image {
     width: 70%;
   }
@@ -334,7 +343,7 @@ p {
   }
 
   .hero-image {
-    width: 90%;
+    width: 80%;
     padding-left: 16px
   }
 
