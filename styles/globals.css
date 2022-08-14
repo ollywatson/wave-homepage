@@ -330,7 +330,7 @@ p {
   }
 
   .content-inner {
-    padding-right: 48px;
+    padding-right: 56px;
   }
 
   .hero-image {
@@ -343,14 +343,14 @@ p {
   }
 
   .support-button {
-    padding: 12px 24px;
-    border-radius: 16px;
-    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-size: 16px;
   }
 
   .wave-logo {
     width: 104px;
-    padding-top: 16px;
+    padding-top: 12px;
   }
 
 }
