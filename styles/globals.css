@@ -49,6 +49,7 @@ h1 {
   font-size: 36px;
   line-height: 44px;
   letter-spacing: -0.75px;
+  margin-bottom: 4px;
 }
 
 p {
@@ -96,13 +97,12 @@ p {
 }
 
 .container-top {
-  margin-top: 104px;
+  margin-top: 136px;
 }
 
 .content-outer {
   height: 100%;
   width: 100%;
-  margin-bottom: 96px;
 }
 
 .content-inner {
@@ -114,7 +114,7 @@ p {
 }
 
 .content-headers {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 @keyframes float {
@@ -131,6 +131,7 @@ p {
 
 .hero-image {
   width: 100%;
+  margin-top: 96px;
   margin-bottom: 104px;
 }
 
@@ -158,10 +159,6 @@ p {
 .wave-logo {
   width: 72px;
   padding-top: 10px
-}
-
-.appstore-download {
-  height: 164;
 }
 
 .support-button {
@@ -229,6 +226,10 @@ p {
   .content-outer {
     margin-bottom: 0px;
   }
+
+  .content-headers {
+    margin-bottom: 40px;
+  }
   
   .footnote {
     font-size: 14px;
@@ -238,6 +239,7 @@ p {
   .hero-image {
     width: 100%;
     animation: float 6s ease-in-out infinite;
+    margin-top: 0;
     margin-bottom: 0;
   }
 }
@@ -245,7 +247,7 @@ p {
 @media (min-width: 992px) {
   h1 {
     font-size: 48px;
-    line-height: 64px;
+    line-height: 56px;
     letter-spacing: -2px;
   }
   
@@ -268,7 +270,7 @@ p {
   }
 
   .content-inner {
-    padding-right: 64px;
+    padding-right: 80px;
   }
 
   .wave-logo {
@@ -284,16 +286,71 @@ p {
     font-size: 16px;
   }
 
+  .hero-image {
+    width: 95%
+  }
+
 }
 
 @media (min-width: 1200px) {
 
+  .hero-image {
+    width: 80%;
+  }
+
 }
 
 @media (min-width: 1400px) {
-
   .hero-image {
     width: 70%;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  h1 {
+    font-size: 54px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+  }
+  
+  p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .footnote {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main-container {
+    min-height: 1000px;
+  }
+
+  .content-inner {
+    padding-right: 48px;
+  }
+
+  .hero-image {
+    width: 90%;
+    padding-left: 16px
+  }
+
+  .header-container {
+    height: 96px;
+  }
+
+  .support-button {
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-size: 18px;
+  }
+
+  .wave-logo {
+    width: 104px;
+    padding-top: 16px;
   }
 
 }

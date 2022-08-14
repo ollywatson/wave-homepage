@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Wave messaging</title>
+        <title>Wave</title>
         <meta name="description" content="Download the Wave messaging app now" />
         <link rel="icon" href="/favicon.ico" />
         <link
