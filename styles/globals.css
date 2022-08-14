@@ -22,8 +22,15 @@ a {
 /* Fonts */
 
 @font-face {
-  font-family: "Calibre";
+  font-family: "Calibre Regular";
   src: url('../fonts/Calibre-R-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Calibre Medium";
+  src: url('../fonts/Calibre-R-Medium.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -45,7 +52,7 @@ h1 {
 }
 
 p {
-  font-family: "Calibre";
+  font-family: "Calibre Regular";
   font-size: 16px;
   line-height: 24px;
   opacity: 0.9;
@@ -82,6 +89,10 @@ p {
   position: fixed;
   z-index: -1;
   bottom: 0px;
+}
+
+.container {
+  padding: 0 24px;
 }
 
 .container-top {
@@ -121,6 +132,7 @@ p {
 
 .hero-image {
   width: 100%;
+  margin-bottom: 104px;
 }
 
 .image-padder {
@@ -159,8 +171,13 @@ p {
   background: rgba(255,255,255,0.2);
   border-radius: 12px;
   float: right;
-  font-family: "Calibre";
+  font-family: "Calibre Medium";
   font-size: 14px;
+}
+
+.support-button:hover {
+  color: white;
+  background: rgba(255,255,255,0.3);
 }
 
 .copyright-footer {
@@ -222,6 +239,7 @@ p {
   .hero-image {
     width: 100%;
     animation: float 6s ease-in-out infinite;
+    margin-bottom: 0;
   }
 }
 
@@ -242,6 +260,10 @@ p {
     line-height: 20px;
   }
 
+  .container {
+    padding: inherit;
+  }
+
   .header-container {
     height: 80px;
   }
@@ -252,16 +274,14 @@ p {
 
   .wave-logo {
     width: 88px;
-    padding-top: 8px;
+    padding-top: 12px;
   }
   
   .support-button {
     color: white;
-    padding: 8px 16px;
+    padding: 10px 20px;
     background: rgba(255,255,255,0.2);
-    border-radius: 12px;
-    float: right;
-    font-family: "Calibre";
+    border-radius: 14px;
     font-size: 16px;
   }
 
