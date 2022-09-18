@@ -14,9 +14,10 @@ function Hero() {
                             <div className="content-inner">
                                 <div className="content-headers">
                                     <h1>Let<span className="apostrophe">’</span>s talk</h1>
-                                    <p>Wave is a voice-based messaging app for conversations you care about.</p>
+                                    {/* <h1>Ease into the conversation</h1> */}
+                                    <p>Wave is a voice-based messaging app for the conversations you care about.</p>
                                 </div>
-                                <a className="appstore-download" href=""><img src="assets/appstore-button.svg"></img></a>
+                                <a className="appstore-download" href="https://apps.apple.com/us/app/wave-messaging/id1601249536"><img src="assets/appstore-button.svg"></img></a>
                             </div>
                         </div>
                     </Col>
