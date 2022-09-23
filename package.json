@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^8.8.0",
     "bootstrap": "^5.2.0",
     "cross-env": "^7.0.3",
     "next": "12.2.5",
