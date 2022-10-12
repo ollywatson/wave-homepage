@@ -16,7 +16,7 @@ export default function Home() {
           />
         </Head>
   
-        <main class="EULA">
+        <main className="EULA">
             <div className="main-container">
                 <Container>
                     <Row>
@@ -116,7 +116,7 @@ export default function Home() {
                             <p>You acknowledge and agree that the Company shall not be responsible for any Third-party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof. The Company does not assume and shall not have any liability or responsibility to You or any other person or entity for any Third-party Services.</p>
                             <p>You must comply with applicable Third parties&apos; Terms of agreement when using the Application. Third-party Services and links thereto are provided solely as a convenience to You and You access and use them entirely at your own risk and subject to such third parties&rsquo; Terms and conditions.</p>
                             <h1>Privacy Policy</h1>
-                            <p>The Company collects, stores, maintains, and shares information about You in accordance with Our Privacy Policy: <a href="https://docs.google.com/document/d/e/2PACX-1vSNTxeV-viru8YDMOaCGxQdooAifgB25hI4N8NWt-Z2MNbyFzdlB0xrd0UX20ad22eyedlzPL3SE4PQ/pub" rel="external nofollow noopener" target="_blank">https://docs.google.com/document/d/e/2PACX-1vSNTxeV-viru8YDMOaCGxQdooAifgB25hI4N8NWt-Z2MNbyFzdlB0xrd0UX20ad22eyedlzPL3SE4PQ/pub</a></p>
+                            <p>The Company collects, stores, maintains, and shares information about You in accordance with Our Privacy Policy: <a href="https://docs.google.com/document/d/e/2PACX-1vSNTxeV-viru8YDMOaCGxQdooAifgB25hI4N8NWt-Z2MNbyFzdlB0xrd0UX20ad22eyedlzPL3SE4PQ/pub" rel="external nofollow noopener noreferrer" target="_blank">https://docs.google.com/document/d/e/2PACX-1vSNTxeV-viru8YDMOaCGxQdooAifgB25hI4N8NWt-Z2MNbyFzdlB0xrd0UX20ad22eyedlzPL3SE4PQ/pub</a></p>
                             <p>By accepting this Agreement, You acknowledge that You hereby agree and consent to the terms and conditions of Our Privacy Policy.</p>
                             <h1>Term and Termination</h1>
                             <p>This Agreement shall remain in effect until terminated by You or the Company.
