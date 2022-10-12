@@ -156,6 +156,7 @@ export default function Home() {
                             <p>If you have any questions about this Agreement, You can contact Us:</p>
                             <ul>
                             <li>By email: <a href="mailto:support@getwave.me">support@getwave.me</a></li>
+                            </ul>
                         </Col>
                     </Row>
                 </Container>
