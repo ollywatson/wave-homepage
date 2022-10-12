@@ -156,7 +156,6 @@ export default function Home() {
                             <p>If you have any questions about this Agreement, You can contact Us:</p>
                             <ul>
                             <li>By email: <a href="mailto:support@getwave.me">support@getwave.me</a></li>
-                            </ul><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                         </Col>
                     </Row>
                 </Container>
