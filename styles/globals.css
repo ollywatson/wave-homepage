@@ -112,7 +112,7 @@ p {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  position: fixed;
+  position: absolute;
   z-index: -1;
   bottom: 0px;
 }
@@ -165,7 +165,7 @@ p {
 }
 
 .header-container {
-  position: fixed;
+  position: absolute;
   top: 0px;
   width: 100vw;
   height: 72px;
@@ -183,7 +183,7 @@ p {
 
 .wave-logo {
   width: 72px;
-  padding-top: 10px
+  padding-top: 12px
 }
 
 .support-button {
@@ -200,8 +200,7 @@ p {
 
 .support-button:hover {
   color: white;
-  background: rgba(255,255,255,0.2);
-  box-shadow: none;
+  box-shadow:inset 0px 0px 0px 4px rgba(255,255,255,0.33);
 }
 
 .copyright-footer {
